@@ -1,5 +1,5 @@
 
-public class Main {
+public class EsercizioVideoLezione1 {
     public static void main(String[] args) {
         exerciseOne();
         exerciseTwo();
