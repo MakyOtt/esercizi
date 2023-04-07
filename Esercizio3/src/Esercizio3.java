@@ -1,4 +1,4 @@
-public class EsercizioVideoLezione2 {
+public class Esercizio3 {
     public static void main(String[] args){
         exerciseOne();
         exerciseTwo();
