@@ -1,9 +1,9 @@
-public class EsercizioVideoLezione2 {
+public class Esercizio6 {
     public static void main(String[] args){
         exercise1();
         exercise2();
         exercise3();
-        //exercise4();
+        exercise4();
     }
     //1: Create a String to hold some text, decide on the text you want it to hold and then name it appropriately
     // print out your string in upper case, and in lower case
@@ -37,5 +37,17 @@ public class EsercizioVideoLezione2 {
 
         String textFrom2Primitives= " " + 1+ false;
         System.out.println(textFrom2Primitives);
+    }
+    /*4: Without editing the Strings below make the print statement print
+      1 2 3 4 5 6 7 8 9 with the correct spacing in between all the numbers
+      You will need to use .trim()
+     */
+    private static void exercise4() {
+        System.out.println("Exercise 4:");
+        String endNumbers = "7 8 9";
+        String middleNumbers = "       4 5 6";
+        String earlyNumbers = "1 2 3";
+
+        System.out.println(earlyNumbers +" "+ middleNumbers.trim() +" "+ endNumbers);
     }
 }
