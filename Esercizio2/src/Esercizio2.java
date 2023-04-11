@@ -12,8 +12,8 @@ public class Esercizio2 {
      * i.e. 'a', 'b', 'c'. You will need multiple print statements
      */
     private static void exercise1() {
-        System.out.print("M");
-        System.out.println("O");
+        System.out.print('M');
+        System.out.println('O');
     }
 
     /**
