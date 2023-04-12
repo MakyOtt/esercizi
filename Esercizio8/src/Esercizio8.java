@@ -65,12 +65,12 @@ public class Esercizio8 {
     private static void exercise4() {
         System.out.println("Exercise 4:");
 
-        int employeeAge = 30;
+        int employeeAge = 64;
 if (employeeAge >= 65){
     System.out.println("Retired");
-} else if (employeeAge>=35 && employeeAge< 65) {
+} else if (employeeAge>=35 ) {
     System.out.println("Experienced Worker");
-}else if (employeeAge>=18 && employeeAge<35){
+}else if (employeeAge>=18 ){
         System.out.println("New Worker");
     } else System.out.println("Scool age");}
 }
