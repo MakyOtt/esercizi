@@ -35,7 +35,7 @@ public class Esercizio6 {
     private static void exercise3(){
         System.out.println("Exercise3:");
 
-        String textFrom2Primitives= " " + 1+ false;
+      String textFrom2Primitives= String.valueOf(1)+ String.valueOf(false);
         System.out.println(textFrom2Primitives);
     }
     /*4: Without editing the Strings below make the print statement print

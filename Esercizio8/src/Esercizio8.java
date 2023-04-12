@@ -42,12 +42,16 @@ public class Esercizio8 {
     private static void exercise3() {
         System.out.println("Exercise 3:");
         double ourDouble =3.5;
-        if (ourDouble > 2.5 && ourDouble<=3.5){
+        if (ourDouble > 2.5){
             System.out.println("Greater than");
         } else if (ourDouble < 2.5){
-            System.out.println(ourDouble+1+" Still less than");
-        } else System.out.println("Now greater than");
-
+            ourDouble+=1;
+            if (ourDouble < 2.5) {
+                System.out.println(" Still less than");
+            } else if(ourDouble > 2.5){
+                System.out.println("Now greater than");
+            }
+        }
     }
 
 
